@@ -1,6 +1,5 @@
-from collections import UserDict
 import re
-from field import Field
+from models.field import Field
 
 class Phone(Field):
     # Class for storing the phone number. It has a format validation (10 digits).
